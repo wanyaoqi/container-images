@@ -8,7 +8,7 @@ platform?=linux/amd64,linux/arm64,linux/riscv64
 qgaTag=qga-v4.0.0
 qgaImg:=$(REGISTRY)/host-deployer-base:$(qgaTag)
 
-telegrafTAG=v1.36-20260227.0
+telegrafTAG=v1.36-20261013.0
 telegrafImg:=$(REGISTRY)/telegraf:$(telegrafTAG)
 
 superviseTag=v2.0
